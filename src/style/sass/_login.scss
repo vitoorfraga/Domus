@@ -1,0 +1,41 @@
+.form-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.field{
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 2.5rem;
+}
+
+.field label{
+  font-size: 1.6rem;
+  color: vaR(--white);
+  margin-bottom: .5rem;
+}
+
+.field input{
+  font-size: 1.6rem;
+  background-color: var(--purple-3);
+  border: solid .1rem vaR(--purple);
+  border-radius: .4rem;
+
+  width: 25rem;
+  height: 3rem;
+
+  padding: 1rem;
+  color: var(--white);
+}
+
+.fiel input:focus{
+  outline: 0;
+  border: 0;
+}
+
+.form .btn{
+  background-color: aqua;
+  margin: 0 auto;
+}
